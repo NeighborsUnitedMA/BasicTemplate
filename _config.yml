@@ -56,6 +56,13 @@ defaults:
     embed-code: 
 - scope:
     path: ''
+    type: endorsements
+  values:
+    main-image: 
+    endorsements-link:
+    layout: media-item
+- scope:
+    path: ''
     type: becomeAMember
   values:
     main-image: 
