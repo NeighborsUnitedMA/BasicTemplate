@@ -2,6 +2,9 @@
 title: Neighbors United MA
 timezone: America/New_York
 collections:
+  endorsements:
+    title: Endorsements
+    output: true
   posts:
     title: Posts
     output: true
