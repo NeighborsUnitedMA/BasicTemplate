@@ -57,14 +57,14 @@ defaults:
   values:
     main-image: 
     mailchimp-form-embed: 
-subtitle: We are thousands of local citizens resisting the Trump agenda through civic
-  action.
-email: 
+subtitle: We are people in and around Wellesley, MA resisting the Trump agenda through
+  civic action.
+email: info@neighborsunitedma.org
 baseurl: 
 url: 
 twitter_username: 
 facebook_username: 
-background-image: "/uploads/31773994174_c2e5706218_k.jpg"
+background-image: "/uploads/organizing-meeting-cropped.jpg"
 member-count: 100
 footer-title: Spread the word. Help build a movement.
 markdown: kramdown
