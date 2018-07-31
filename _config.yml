@@ -60,7 +60,7 @@ defaults:
   values:
     main-image: 
     endorsements-link: 
-    layout: media-item
+    layout: post
 - scope:
     path: ''
     type: becomeAMember
