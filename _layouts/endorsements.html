@@ -14,7 +14,7 @@ layout: default
         {{ content }}
 
         {% unless site.endorsements.size > 0 %}
-          <p>No endorsements at this time.</p>
+          <p>No posts at this time.</p>
         {% endunless %}
 
         <div class="clearfix spacer"></div>
@@ -26,10 +26,9 @@ layout: default
       {% for endorsements in site.endorsements %}
         <div class="col-sm-3 col-md-4">
           <hr class="mt-3 mb-3">
-          <div class="endorsement-thumbnail mb-2" style="background-image: url('{{ endorsements.main-image }}')"></div>
-          <h3 class="mb-1">{{ endorsements.title | truncate: 140 }}</h3>
+          <a href="{{ endorsements.url | relative_url }}" class="media-thumbnail mb-2" style="background-image: url('{{ endorsements.main-image }}')"></a>
+          <h3 class="mb-1"><a href="{{ endorsements.url | relative_url }}">{{ endorsements.title | truncate: 140 }}</a></h3>
           <div class="text-muted post-body mt-0 mb-4">{{ endorsements.content | truncate: 140 }}</div>
-          <div class="text-muted post-body mt-0 mb-4"><a href="{{ endorsements.endorsements-link }}">website</a></div>
         </div>
       {% endfor %}
     </div>
