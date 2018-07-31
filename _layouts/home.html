@@ -45,9 +45,7 @@ layout: default
         <div class="post-list">
 
           {% assign featured_posts = (site.posts|where_exp:"post","post['is featured'] == true") %}
-          {% assign featured_posts = featured_posts.posts | sort:'event-start-date' %}
           {% assign not_featured_posts = (site.posts|where_exp:"post","post['is featured'] == false") %}
-          {% assign not_featured_posts = not_featured_posts.posts | sort:'event-start-date' %}
 
           {% for post in featured_posts %}
             <hr class="mt-0 mb-2">
