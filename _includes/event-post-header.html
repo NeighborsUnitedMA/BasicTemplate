@@ -14,7 +14,7 @@
         {% endif %}
         <div class="{% if post.main-image %}col-sm-6 col-lg-8{% else %}col-sm-9 col-lg-10{% endif %}">
           <h3 class="mt-0 mb-1">
-            <a class="post-link"  href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            <a class="post-link"  href="{{ post.RSVP-link }}">{{ post.title | escape }}</a>
           </h3>
           <div class="row">
             {% if post.event-start-date %}
@@ -30,7 +30,7 @@
         <!-- POST MAIN IMAGE FIELD -->
         {% if post.main-image %}
         <div class="col-sm-3 col-lg-2 hidden-xs-down mb-4">
-          <a class="thumb-wrap mt-1" href="{{ post.url | relative_url }}" style="background-image: url('{{ post.main-image}}');"></a>
+          <a class="thumb-wrap mt-1" href="{{ post.RSVP-link }}" style="background-image: url('{{ post.main-image}}');"></a>
         </div>
         {% endif %}
         <!-- END POST MAIN IMAGE -->
