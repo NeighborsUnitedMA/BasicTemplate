@@ -59,7 +59,7 @@ defaults:
     type: endorsements
   values:
     main-image: 
-    endorsements-link:
+    endorsements-link: 
     layout: media-item
 - scope:
     path: ''
