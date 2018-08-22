@@ -3,7 +3,7 @@ title: Phone bank for Jared Golden, Maine Congressional Candidate
 date: 2018-07-31 13:45:00 -04:00
 categories:
 - event
-is featured: true
+is featured: false
 main-image: "/uploads/phone-banking.png"
 event-start-date: 2018-08-09 18:30:00 -04:00
 event-end-date: 2018-08-09 20:30:00 -04:00
